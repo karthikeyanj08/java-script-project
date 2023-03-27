@@ -1,0 +1,155 @@
+#main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to right,#9c27b0,#8ecdff);
+
+}
+#logo{
+    display: flex;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    right: 150px;
+    bottom: 20px;
+    
+
+}
+nav{
+    width: 80%;
+    position: sticky;
+    margin: 20px auto;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+}
+#links{
+    flex: 1;
+    text-align: right;
+    position: relative;
+    left: 30px;
+    
+}
+#links ul li{
+    display: inline-block;
+    margin: 20px;
+}
+#links ul li a{
+    color: azure;
+}
+#info{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    transform: translateY(-50%);
+    
+}
+#cir{
+    width:1000px;
+    height:1000px;
+    border-radius:50%;
+    position: absolute;
+    transform: rotate(0deg);
+    transition: 1s;
+    
+    
+}
+#fe{
+    color: black;
+}
+.feature img{
+    width:70px;
+
+}
+.feature{
+    position:absolute;
+    display: flex;
+    color:white
+}
+.feature div{
+    margin-left: 10px;
+
+}
+.feature div p{
+    margin-top: 8px;
+    
+}
+
+.one{
+    top:400px;
+    right: 50px;
+    
+    
+
+}
+.two{
+    width: 50px;
+    top:200px;
+    left:450px;
+    transform: rotate(-90deg);
+    align-items: center;
+    
+}
+.three{
+    bottom: 450px;
+    left: 10px;
+    transform: rotate(-180deg);
+    
+}
+.four{
+    bottom: 100px;
+    right: 300px;
+    transform: rotate(-270deg);
+}
+.mobile{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 25%;
+
+    right: 40%;
+    z-index: 1;
+}
+.controls{
+    position: absolute;
+    left: 1100px;
+    text-align: center; 
+    top: 50%;
+}
+.controls h3{
+    margin: 15px;
+    color: #ffff;
+    
+    
+}
+#upbtn{
+    width: 15px;
+    cursor: pointer;
+}
+#dwnbtn{
+    width: 15px;
+    cursor: pointer;
+    transform: rotate(180deg);
+}
+.overlay{
+    border-top: 500px solid white;
+    border-right: 550px solid rgb(116, 116, 189);
+    border-bottom: 500px solid white;
+    border-left: 500px solid white;
+    position: absolute;
+}
+h2{
+    color: #9c27b0;
+}
+#pre{
+    color:#9c27b0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    right: 40px;
+}
+
+    

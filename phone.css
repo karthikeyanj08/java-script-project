@@ -1,0 +1,194 @@
+#case{
+    display: flex;
+    width: 2000px;
+    height: 700px;
+    
+}
+#lg{
+    width: 1700px;
+}
+.me{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+
+#h{
+    position: absolute;
+    left: 300px;
+     top: 80px;
+    color: rgb(162, 88, 232);
+    
+}
+#links>a{
+   margin: 20px;
+   position: relative;
+   left: 800px;
+   color: blueviolet;
+   top: 50px;
+}
+body{
+    background-color: black;
+}
+#p1{
+    
+    display: flex;
+    color: aqua;
+
+    height: 150px;
+    width: 300px;
+}
+#show{
+    color: aliceblue;
+    background-color: cadetblue;
+    border-radius: 50px;   
+}
+    #hide{
+        color: aliceblue;
+        background-color: darkcyan;
+        border-radius: 50px;
+    }
+
+h1{
+    color: cyan;
+}
+
+#img1{
+    height: 350px;
+    width: 250px;
+}
+#img2{
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+
+}
+#p2{
+    color: aqua;
+    display: flex;
+
+    height:150px;
+    width: 300px;
+}
+#show1{
+    color: aliceblue;
+        background-color: darkcyan;
+border-radius: 50px;
+}
+#hide1{
+    color: aliceblue;
+    background-color: darkcyan;
+border-radius: 50px; 
+}
+.jk{
+    display: flex;
+    margin: 20px;
+
+}
+.kj{
+    display: flex;
+    margin: 20px;
+
+}
+#p3{
+color: aqua;
+    display: flex;
+    height:150px;
+    width: 300px;
+    position: relative;
+    bottom: 100px;
+}
+#p4{
+    color: aqua;
+    display: flex;
+    
+    height:150px;
+    width: 300px; 
+
+}
+#show2{
+
+ color: aliceblue;
+    background-color: cadetblue;
+    border-radius: 50px
+}
+#hide2{
+    color: aliceblue;
+        background-color: darkcyan;
+        border-radius: 50px;
+
+}
+#show3{
+    color: aliceblue;
+    background-color: cadetblue;
+    border-radius: 50px 
+
+}
+#hide3{
+
+color: aliceblue;
+        background-color: darkcyan;
+        border-radius: 50px;
+}
+#xr{
+    height: 400px;
+    width: 200px;
+    background-color: black;
+}
+.btn{
+    position: relative;
+    right: 70px;
+}
+#mac{
+    position: relative;
+    text-align:center;
+    color: rgb(193, 34, 193);
+}
+#mp{
+    color: aqua;
+    height: 250px;
+    width: 250px;
+
+}
+#lap{
+    height: 400px;
+    width: 600px;
+}
+#mshow1{
+    border-radius: 50px;
+    color: rgb(159, 27, 27);
+}
+#mhide1{
+    border-radius: 50px;
+    color: rgb(238, 34, 51);
+}
+#mp2{
+    color: aqua;
+height: 250px;
+width: 250px;
+}
+#m2m{
+    height: 400px;
+    width: 600px;
+}
+.macc{
+    display: flex;
+    gap: 50px;
+    margin: 30px;
+
+}
+#light{
+    position: relative;
+    left: 650px;
+}
+#ti{
+    color: blueviolet;
+    position: relative;
+    bottom: 50px;
+    left: 20px;
+}
+
+    
+
+

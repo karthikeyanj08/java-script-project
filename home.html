@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <nav>
+            <div id="logo">
+                <img src="./images png/apple-apple-think-different-slogan-wallpaper-preview.jpg">
+                <h2> your privacy is more important</h2>
+/
+            </div>
+            <div id="links">
+         <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="./phone.html">PRODUCTS</a></li>
+            
+
+         </ul>
+            </div>
+        </nav>
+        <div id="info">
+            <div class="overlay"></div>
+            <img src="./images png/apple_iphone-12_new-design_10132020_big.jpg.large.jpg" class="mobile">
+            <div id="cir">
+                <div class="feature one">
+                    <img src="./images png/camera.png">
+                    <div>
+                        <h1>camera</h1>
+                        <p>48mp,focus lens</p>
+                    </div>
+                </div>
+                <div class="feature two">
+                    <img src="./images png/processor.png">
+                    <div>
+                        <h1>processor</h1>
+                        <p>Apple Bionic A15 Chipset
+                            3.22GHz, Hexa Core Processor</p>
+                    </div>
+                </div>  
+            <div class="feature three">
+                <img src="./images png/display.png">
+                <div>
+                    <h1>display</h1>
+                    <P>6.1inch, OLED Screen
+                        Small
+                        1170x2532pixels</P>
+                </div>
+            </div>
+            <div class="feature four">
+                <img src="./images png/battery.png">
+                <div>
+                    <h1>Battery</h1>
+                    <P>3279mAh Battery
+                        Small
+                        Fast Charging
+                         </P>
+
+                </div>
+
+            </div>
+            </div>
+        </div>
+        <div class="controls">
+            <img src="./images png/arrow.png" id="upbtn">
+            <h3 id="fe"> Features</h3>
+            <img src="./images png/arrow.png" id="dwnbtn">
+        
+            <h1 id="pre">FEEL THE PREMIUM </h1>
+        </div>
+
+    </div>
+    <script>
+        var circle=document.getElementById("cir");
+        var up=document.getElementById("upbtn");
+        var dn=document.getElementById("dwnbtn");
+
+        var rotatevalue=circle.style.transform;
+
+        upbtn.onclick=function()
+        {
+          rotatesum=rotatevalue+ "rotate(-90deg)"
+            circle.style.transform=rotatesum;
+            rotatevalue=rotatesum;
+
+        }
+        dwnbtn.onclick=function()
+        {
+          rotatesum=rotatevalue+ "rotate(90deg)"
+            circle.style.transform=rotatesum;
+            rotatevalue=rotatesum;
+
+        }
+    </script>
+    
+</body>
+</html>
