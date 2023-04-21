@@ -16,3 +16,7 @@ By clicking the buttons users can view the detail of the particular product .
 <img width="1439" alt="Screenshot 2023-04-21 at 12 49 27 PM" src="https://user-images.githubusercontent.com/120786613/233571133-1d092a1f-72bd-44bc-8db2-52dae361f0dd.png">
 
 <img width="1439" alt="Screenshot 2023-04-21 at 12 58 32 PM" src="https://user-images.githubusercontent.com/120786613/233571385-04988e69-5544-4311-a0b3-c2392c223698.png">
+
+Project explanation video:
+
+https://www.loom.com/share/0e460e962e49409bbbedf8ac4f6a7e56
